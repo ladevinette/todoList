@@ -43,6 +43,8 @@ export function Home() {
   const darkBackgroundMobile = require("./Image/images/bg-mobile-dark.jpg");
   const [lightTheme, setLightTheme] = useState<boolean>(true);
 
+  console.log("siema");
+
   const light = createTheme({
     palette: {
       background: {
